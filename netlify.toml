@@ -3,3 +3,6 @@ publish = "public"
 
 [functions]
 node_bundler = "esbuild"
+
+[functions.hello]
+path = "/custom/functions"
