@@ -5,4 +5,4 @@ publish = "public"
 node_bundler = "esbuild"
 
 [functions.hello]
-path = "/custom/functions"
+path = ["/custom/functions", "/custom/functions/2"]

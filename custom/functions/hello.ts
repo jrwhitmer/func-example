@@ -7,5 +7,5 @@ export default async (req: Request, context: Context) => {
 }
 
 export const config: Config = {
-  path: "/custom/functions"
+  path: ["/custom/functions", "/custom/functions/2"]
 }
