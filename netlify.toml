@@ -1,0 +1,8 @@
+[build]
+publish = "public"
+
+[functions]
+node_bundler = "esbuild"
+
+[functions.hello]
+path = ["/custom/functions", "/custom/functions/2"]
